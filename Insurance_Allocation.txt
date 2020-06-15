@@ -1,0 +1,36 @@
+Insurance offer Allocation Process
+
+1. Create 4 Folders (Input/Processing/Scrap/Output).
+
+2. Create 10 files with the following names in Input folder.
+	a. Product List.xlsx
+	b. Training List.xlsx
+	c. Resources List.txt
+	d. Image.png
+	e. Image2.png
+	f. Service_Request_1234.xlsx 
+	g. Service_Request_39485.xlsx
+	h. Service_Request_39123.xlsx
+	i. Temp.txt
+	j. Randon.csv
+
+3. Capture only the Service_Request files and move them to Processing Folder. Rest of the files should be moved to Scrap Folder.
+4. Service Request files should have the following columns. (2 user details for each service request file)
+	a. Name
+	b. Age
+	c. City
+	d. Occupation
+	e. Insurance available (Yes/No)
+	f. Customer Type (VIP/Regular)
+	g. Offer
+5. If the Insurance is already available to the customer, we don't have to assign any offer.
+If No, then assign the 20% discount to the Senior citizens (VIP), 15% discount to the Senior Citizens (Regular).
+Assign 10% discount to the normal citizens (VIP), 5% discount to the normal citizens (Regular).
+Standard Rates are Rs. 200.
+6. Based on the above information, Calculator should be opened and the discount should be calculated and capture the result back into the excel column (offer).
+7. Once the excel data is completed, move the file to the Output Folder.
+
+
+
+
+
